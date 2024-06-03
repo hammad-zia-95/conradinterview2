@@ -1,0 +1,6 @@
+<!-- <p>flyover works!</p> -->
+<div *ngIf="state" class="flyover-parent">
+<p>works</p>
+<ng-content></ng-content>
+<button (click)="close()">Close</button>
+</div>
